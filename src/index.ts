@@ -35,7 +35,7 @@ function toHaveSentOneWithOptions(_mailing: Mailing, sendOptions: SendOptions): 
           return `expected Mailing to have sent the email with the given options, but no emails were sent at all.`
         } else {
           return `expected Mailing to have sent the email with the given options, but it did not\n\nOptions sent were:\n${sentOptions
-            .map((sentOptions: SendOptions) => this.utils.diff(sentOptions, sendOptions))
+            .map((sentOptions: SendOptions) => this.utils.diff(sendOptions, sentOptions))
             .join('\n')}`
         }
       },

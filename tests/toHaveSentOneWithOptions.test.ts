@@ -72,10 +72,10 @@ Options sent were:
     "locals": Object {
       "local": "123",
     },
--   "subject": "Welcome",
--   "template": "tests/__fixtures__/welcome-email",
-+   "subject": "Other",
-+   "template": "tests/__fixtures__/other-email",
+-   "subject": "Other",
+-   "template": "tests/__fixtures__/other-email",
++   "subject": "Welcome",
++   "template": "tests/__fixtures__/welcome-email",
   }
 - Expected
 + Received
@@ -84,10 +84,10 @@ Options sent were:
     "locals": Object {
       "local": "123",
     },
--   "subject": "Welcome",
--   "template": "tests/__fixtures__/welcome-email",
-+   "subject": "Other",
-+   "template": "tests/__fixtures__/other-email",
+-   "subject": "Other",
+-   "template": "tests/__fixtures__/other-email",
++   "subject": "Welcome",
++   "template": "tests/__fixtures__/welcome-email",
   }`)
   })
 
